@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clove Dental Navigation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>clove<span>:)</span></h1>
+                <p>Dental</p>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Treatments <span class="dropdown">&#9662;</span></a></li>
+                <li>|</li>
+                <li><a href="#">Dental Plans <span class="dropdown">&#9662;</span></a></li>
+                <li>|</li>
+                <li><a href="#">Our Doctors</a></li>
+                <li>|</li>
+                <li><a href="#">Careers</a></li>
+                <li>|</li>
+                <li><a href="#">Find a Clinic</a></li>
+            </ul>
+            <div class="right-buttons">
+                <a href="#" class="btn book-appointment">Book Appointment</a>
+                <a href="#" class="btn help">Help</a>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="slideshow-container">
+
+            <!-- First Slide (Woman Image) -->
+            <div class="slide fade" id="slide1">
+                <div class="slide-content">
+                    <div class="text-content">
+                        <h1>Advance Dental Health Plan</h1>
+                        <p class="subtext">Dental care worth ₹8,000/-</p>
+                        <p class="price-text">Only at <strong>₹550/-</strong></p>
+                        <button class="cta-button">Buy Now</button>
+                    </div>
+                    <div class="image-content">
+                        <img src="asset/Untitled design.png" alt="Dental Health Plan">
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Second Slide (Doctor Image) -->
+            <div class="slide fade" id="slide2">
+                <div class="slide-content">
+                    <div class="text-content">
+                        <h1>Your Smile, Our Priority <span style="color: #ff0000;">Clove Dental</span></h1>
+                        <p class="subtext">Explore a wide range of general dentistry solutions</p>
+                        <button class="cta-button">Book Appointment</button>
+                    </div>
+                    <div class="image-content">
+                        <img src="asset/doctor.png" alt="Clove Dental">
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Dots for navigation -->
+            <div class="dots-container">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+            </div>
+        
+        </div>
+        
+        
+         <!-- rating section-->
+         
+            <div class="container_rating">
+                <div class="stat-box">
+                    <h2>450+ <samp style="color: #000000">World Class Clinics</samp></h2>
+                    
+                    <p>Managed by 1200+ Super Specialists</p> <!-- New Line Added -->
+                </div>
+        
+                <div class="rating-box">
+                    <div class="google-logo">
+                        <img src="asset/google.png" alt="Google logo">
+                    </div>
+                    <div class="rating-details">
+                        <p><strong style="font-size: large;"> ⭐ 4.9/5</strong></p>
+                        <p > <strong id="rating" style="color: #e67a15;font-size: larger;">1.5 Lakh+</strong>  5 Star Ratings</p>
+                        
+                    </div>
+                </div>
+        
+                <!-- Vertically aligned city select and locate button -->
+                <div class="location-box">
+                    <select class="city-select">
+                        <option>Select your City</option>
+                        <option>Delhi</option>
+                        <option>Mumbai</option>
+                        <option>Bangalore</option>
+                        <!-- Add more cities here -->
+                    </select>
+                    <button class="locate-btn">Locate nearest Clove clinic</button>
+                </div>
+            </div>
+            <div class="image-container1">
+                <img src="asset/Frame 52358.png" alt="Image description">
+            </div>
+            <div class="container_health">
+                
+            <div class="form-section">
+                <h2>Expert Guidance for Healthy Smiles</h2>
+                <p>Contact Now</p>
+                <form>
+                    <input type="text" placeholder="Name" value="Amit Rana">
+                    <input type="text" placeholder="Mobile Number">
+                    <select>
+                        <option>Select Concern</option>
+                        <option>Teeth Whitening</option>
+                        <option>Braces</option>
+                    </select>
+                    <button type="submit">Book A Free Consultation</button>
+                </form>
+            </div>
+    
+            <div class="info-section">
+                <div class="large-card">
+                    <h2>10x Safety Protocols</h2>
+                    <p>Monitored by DORI<br>(Artificial Intelligence System)</p>
+                    <a href="#">Learn More &rarr;</a>
+                    <img src="asset/nurse.png" alt="Safety Protocols">
+                </div>
+                <div class="small-cards">
+                    <div class="card">
+                        <h3>450+ Neighbourhood</h3>
+                        <p>Clinics Pan India</p>
+                        <a href="#">Locate Clinic near you &rarr;</a>
+                    </div>
+                    <div class="card">
+                        <h3>1200+ Expert Doctors</h3>
+                        <p>Covering All Specialities</p>
+                        <a href="#">Explore Dentists Nearby &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="testimonials-section">
+        <h1>In their Own Words</h1>
+        <div class="testimonials-grid">
+            <div class="testimonial">
+                <img src="asset/Frame 52126.png" alt="Testimonial 1">
+            </div>
+            <div class="testimonial">
+                <img src="asset/Frame 52127.png".jpg" alt="Testimonial 2">
+            </div>
+            <div class="testimonial">
+                <img src="asset/Frame 52128.png" alt="Testimonial 3">
+            </div>
+            <div class="testimonial">
+                <img src="asset/Frame 52129.png" alt="Testimonial 4">
+            </div>
+            <div class="testimonial">
+                <img src="asset/Frame 52130.png" alt="Testimonial 5">
+            </div>
+        </div>
+    </section>
+    <div class="content-wrapper">
+        <div class="text-content">
+            <h1 style="font-size:35px;">Unmatched Dental Excellence by 1200+ Specialists</h1>
+            <ul class="specialist-list">
+                <li>
+                    <img src="asset/Frame 52485.png" alt="Team Icon">
+                    <p><strong>Team of Specialists</strong><br><span id="specialist-description" class="highlight">75+ Orthodontists</span></p>
+                </li>
+                <li>
+                    <img src="asset/Frame 52484.png" alt="Women Icon">
+                    <p><strong>Leading with 80% women</strong></p>
+                </li>
+                <li>
+                    <img src="asset/Frame 2609439.png" alt="MDS Icon">
+                    <p><strong>65% MDS</strong><br>Doctors for specialized care</p>
+                </li>
+            </ul>
+        </div>
+       
+            <div class="doctor-card">
+                <img src="asset/Frame 2609370.png" alt="Dr. Suresh Kumar">
+                
+                <div class="cta-wrapper">
+                    <a href="#" class="cta-button">Meet our Doctors</a>
+                </div>
+            </div>
+            
+    
+    </div>
+    <div class="icon-bar">
+        <div class="icon-item">
+            <img src="asset/Happy Patients.png" alt="Happy Patients Icon">
+            <p><strong>20 L+</strong> Happy Patients</p>
+        </div>
+        <div class="icon-item">
+            <img src="asset/Frame 610.png" alt="Dentists Icon">
+            <p><strong>1200+</strong> Dentists</p>
+        </div>
+        <div class="icon-item">
+            <img src="asset/Clinics.png" alt="Clinics Icon">
+            <p><strong>450+</strong> Clinics</p>
+        </div>
+        <div class="icon-item">
+            <img src="asset/simple-line-icons_calender.png" alt="Days Open Icon">
+            <p><strong>7 Days</strong> Open</p>
+        </div>
+        <div class="icon-item">
+            <img src="asset/Happy Patients.png" alt="Happy Patients Icon">
+            <p><strong>20 L+</strong> Happy Patients</p>
+        </div>
+        <div class="icon-item">
+            <img src="asset/Clinics.png" alt="Dentists Icon">
+            <p><strong>1200+</strong> Dentists</p>
+        </div>
+        <div class="icon-item">
+            <img src="asset/simple-line-icons_calender.png" alt="Clinics Icon">
+            <p><strong>450+</strong> Clinics</p>
+        </div>
+        <div class="icon-item">
+            <img src="asset/simple-line-icons_calender.png" alt="Days Open Icon">
+            <p><strong>7 Days</strong> Open</p>
+        </div>
+    </div>
+
+    <div class="image-container2">
+        <img src="asset/Frame 52448.png" alt="">
+    </div>
+    <div class="navigation">
+        <button class="nav-btn">←</button>
+        <button class="nav-btn">→</button>
+    </div>
+    <div class="container_blog">
+        <h1>Journey Through Knowledge: Blog Hub</h1>
+        
+        <div class="categories">
+            <a href="#" class="category-link active" data-category="general">General Dentistry</a>
+            <a href="#" class="category-link" data-category="cosmetics">Cosmetics Dentistry</a>
+            <a href="#" class="category-link" data-category="crowns">Crowns & Bridges</a>
+            <a href="#" class="category-link" data-category="nutrition">Nutrition</a>
+            <a href="#" class="category-link" data-category="surgery">Oral Surgery</a>
+            <a href="#" class="category-link" data-category="root">Root Canal</a>
+            <a href="#" class="category-link" data-category="implants">Implants & Dentures</a>
+        </div>
+    
+        <div class="blog-grid">
+            <!-- Blog content stays the same for all links -->
+            <div class="blog-card">
+                <img src="asset/Frame 51911.png" alt="Blog Image">
+                <div class="blog-info">
+                    <h3>Dry Sockets Demystified: Understanding the connection to tooth extraction</h3>
+                    <p>12th Feb 2024 | 2 min read</p>
+                </div>
+            </div>
+            <div class="blog-card">
+                <img src="asset/Frame 51911.png" alt="Blog Image">
+                <div class="blog-info">
+                    <h3>Dry Sockets Demystified: Understanding the connection to tooth extraction</h3>
+                    <p>12th Feb 2024 | 2 min read</p>
+                </div>
+            </div>
+            <div class="blog-card">
+                <img src="asset/Frame 51911.png" alt="Blog Image">
+                <div class="blog-info">
+                    <h3>Dry Sockets Demystified: Understanding the connection to tooth extraction</h3>
+                    <p>12th Feb 2024 | 2 min read</p>
+                </div>
+            </div>
+            <div class="blog-card">
+                <img src="asset/Frame 51911.png" alt="Blog Image">
+                <div class="blog-info">
+                    <h3>Dry Sockets Demystified: Understanding the connection to tooth extraction</h3>
+                    <p>12th Feb 2024 | 2 min read</p>
+                </div>
+            </div>
+            <div class="blog-card">
+                <img src="asset/Frame 51911.png" alt="Blog Image">
+                <div class="blog-info">
+                    <h3>Dry Sockets Demystified: Understanding the connection to tooth extraction</h3>
+                    <p>12th Feb 2024 | 2 min read</p>
+                </div>
+            </div>
+            <div class="blog-card">
+                <img src="asset/Frame 51911.png" alt="Blog Image">
+                <div class="blog-info">
+                    <h3>Dry Sockets Demystified: Understanding the connection to tooth extraction</h3>
+                    <p>12th Feb 2024 | 2 min read</p>
+                </div>
+            </div>
+        </div>
+        <div class="navigation">
+            <button class="nav-btn">←</button>
+            <button class="nav-btn">→</button>
+        </div>
+        <div class="explore-more">
+            <a href="#">Explore More <span>→</span></a>
+        </div>
+        
+        
+    </div>
+    <div class="image3">
+        <img src="asset/Rectangle 3037.png" alt="">
+    </div>
+    <div class="corporate-trust">
+        <div class="container_t">
+            <div class="heading">
+                <h1><span>250+</span> Corporate Trust Us</h1>
+                <p>Check if your company is one of them & avail exclusive benefits</p>
+            </div>
+            <div class="logos">
+                <img src="asset/Frame 52503.png" alt="Company Logos">
+            </div>
+            <div class="cta-buttons">
+                <button class="book-btn">Book Appointment</button>
+                <a href="#" class="register-link">Register your company →</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container_y">
+        <h2>Beyond Dentistry</h2>
+        <p>Mapping success in every area</p>
+        <div class="grid">
+            <div class="grid-item">
+                <img src="asset/Layer 1.png" alt="Educational Videos">
+                <p>Educational Videos</p>
+            </div>
+            <div class="grid-item">
+                <img src="asset/Layer 2.png" alt="News & Media">
+                <p>News & Media</p>
+            </div>
+            <div class="grid-item">
+                <img src="asset/Layer 2 (1).png" alt="Rewards">
+                <p>Rewards</p>
+            </div>
+            <div class="grid-item">
+                <img src="asset/Layer 2 (2).png" alt="Careers">
+                <p>Careers</p>
+            </div>
+        </div>
+    </div>
+    
+  <div class="centerr-wrapper">
+    <div class="faq-container">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-grid">
+            <div class="faq-column">
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>Can I choose the dentist on my own for treatment?</span>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, you can choose your preferred dentist for your treatment, based on availability.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>Will I get the same doctor each time I visit the same clinic?</span>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Typically, we try to ensure continuity by assigning the same doctor for each visit, but there might be exceptions.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>How are you able to provide lower prices than other dental brands?</span>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We achieve lower prices by optimizing our processes and leveraging technology, ensuring high-quality service at reduced costs.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="faq-column">
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>Are your dental products eco-friendly?</span>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we prioritize sustainability by using eco-friendly materials and processes whenever possible.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>What payment methods do you accept?</span>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We accept all major credit cards, insurance, and even offer installment payment plans.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>Do you offer any we offer discounts for multiple members family discounts for families?</span>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we offer discounts for multiple members family packages with significant discounts for multiple members.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>Treatments</h3>
+                <ul>
+                    <li>Laser Dentistry</li>
+                    <li>Dental Fillings</li>
+                    <li>Root Canal Treatment</li>
+                    <li>Wisdom Teeth Removal</li>
+                    <li>Braces & Aligners</li>
+                    <li>Clear Aligners</li>
+                    <li>Dental Implants</li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li>Home</li>
+                    <li>Services</li>
+                    <li>About Us</li>
+                    <li>Locations</li>
+                    <li>Book Appointments</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+    
+            
+    
+            <div class="footer-column">
+                <h3>Explore Clove</h3>
+                <ul>
+                    <li>Our Team</li>
+                    <li>Clinic Overview</li>
+                    <li>Testimonials</li>
+                    <li>Blogs</li>
+                    <li>News</li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Legal</h3>
+                <ul>
+                    <li>Privacy Policy</li>
+                    <li>Terms of Service</li>
+                    <li>Accessibility</li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Connect with Us</h3>
+                <div class="social-icons">
+                    <a href="#"><img src="asset/Vector.png" alt="Instagram"></a>
+                    <a href="#"><img src="asset/Group 51317.png" alt="Facebook"></a>
+                    
+                    <a href="#"><img src="asset/Group 51316.png" alt="YouTube"></a>
+                </div>
+            </div>
+        </div>
+        <!-- Clove Logo Center -->
+        <div class="footer-logo">
+            <img src="asset/clove logo.png" alt="Clove Dental Logo">
+        </div>
+        <div class="footer-bottom">
+            <p>All Rights Reserved - 2024, Clove Dental (a brand name of M/s. Star Dental Centre Private Limited)</p>
+        </div>
+    </footer>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
